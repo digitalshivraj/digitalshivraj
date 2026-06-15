@@ -1,79 +1,55 @@
-# Shivraj — Solo Founder & Builder
+# Shivraj Chincholkar
 
-Based in Pune, India. Building AI-native products across education, health, and automation.
+**AI Automation & GTM Engineer** · Pune, India · [LinkedIn](https://linkedin.com/in/digitalshivraj)
 
----
-
-## 🚀 What I'm Building
-
-### Astra Global
-**Developmental coaching platform for children ages 3–6**
-
-A parent-led curriculum app that trains foundational brain capabilities — attention, sensory awareness, motor precision, and working memory — using household items and guided parent coaching.
-
-- 48-unit curriculum across Nursery + LKG (2 years)
-- Cross-sprint progression with celebration milestones
-- Parent session tracking with mood, notes, and XP
-- Hinglish voice AI coaching via Vapi.ai (in development)
-- Live at **[astraglobal.vercel.app](https://astraglobal.vercel.app)**
-
-**Stack:** Next.js 16 · Supabase (Postgres + Auth + RLS) · Tailwind CSS · Vapi.ai · Vercel
+I build multi-agent AI systems and growth automation — end to end, in production. 8+ years running B2B revenue funnels, now designing and shipping the AI systems that run them.
 
 ---
 
-### CareSync
-**Senior health and medication companion app**
+## What I Build
 
-A premium health management app for seniors and caregivers. Handles medication scheduling, voice vitals logging, real-time family sync via care circles, and AI-powered prescription scanning.
+### 🤖 [Headliner](https://github.com/digitalshivraj/headliner) — 9-Agent B2B Outreach Automation
+A production multi-agent pipeline for selling paid editorial placements at scale.
 
-- Medication timeline with dose tracking and low-stock alerts
-- Voice logging for vitals (BP, glucose, heart rate, weight)
-- Family care circle — invite codes, role-based access
-- OCR prescription scanner + AI document parser
-- Supports English, Spanish, Arabic (RTL)
-- Live at **[caresync-f6f24.web.app](https://caresync-f6f24.web.app)**
+- **9 coordinated agents:** Prospect Researcher (Apollo/LinkedIn enrichment) → Fit Scorer (7/10 gate) → Personalizer (trained voice corpus) → Reply Classifier → Follow-up Composer → Compliance Monitor → Scheduler → Sheets Sync → Telegram Control Hub
+- **Stack:** n8n · Supabase Postgres · Instantly.ai · Claude API · Google Sheets API · Telegram Bot API
+- **Design principle:** Human sign-off before every send. Bad AI outreach costs more pipeline than no outreach.
 
-**Stack:** Firebase · Vanilla JS · PWA · Web Speech API · OCR · AI document parsing
+### 🎓 [Astra Global](https://github.com/digitalshivraj/Astra-Global) — AI-Assisted Early Childhood Coaching Platform · [Live Demo](https://astraglobal.vercel.app)
+Full-stack coaching dashboard built and deployed solo in 6 weeks.
 
----
-
-### Headliner
-**AI-powered media outreach automation**
-
-Nine-agent pipeline for cold email outreach to journalists and editors. Automates prospect research, personalisation, reply classification, and follow-up sequences.
-
-**Stack:** n8n · Supabase · Instantly.ai · Apollo · OpenAI · Google Sheets
+- **48 curriculum units** across two learning levels with progress loops and celebration mechanics
+- **Stack:** Next.js · Supabase (Postgres + RLS) · Vercel · TypeScript
+- Owned everything: schema design, 8 migrations, seeding pipeline, auth, RLS hardening, analytics, production deployment
 
 ---
 
-## 🛠 Technologies
+## Skills
 
-**Frontend**
-Next.js · React · Tailwind CSS · TypeScript · Vanilla JS · PWA
+**AI & Agents**
+`Multi-Agent Systems` `LLM Orchestration` `Prompt Engineering` `n8n` `Claude API` `OpenAI API` `Agent Memory & State Design` `Human-in-the-Loop Guardrails`
 
-**Backend & Database**
-Supabase · PostgreSQL · Firebase · Row Level Security · REST APIs
+**Backend & Data**
+`Postgres` `Supabase` `REST APIs` `Webhooks` `Google Sheets API` `Python` `SQL`
 
-**AI & Automation**
-Vapi.ai · OpenAI · n8n · Deepgram · Azure Cognitive Services · OCR · Web Speech API
+**Frontend & Deployment**
+`Next.js` `React` `TypeScript` `JavaScript` `Vercel` `Git`
 
-**DevOps**
-Vercel · Firebase Hosting · GitHub · ngrok
-
----
-
-## 📍 Background
-
-Solo founder building multiple products simultaneously across early childhood education, senior health, and media automation. Based in Pune, India.
+**GTM & Growth**
+`Cold Outreach Systems` `Email Deliverability` `Google Ads` `Meta Ads` `GA4` `SEO/GEO/AEO` `Funnel Analytics` `HubSpot` `CRM`
 
 ---
 
-## 📬 Connect
+## Background
 
-Trying Astra with your child (ages 3–6)? Using CareSync for a family member?
+Previously spent 8 years driving revenue through paid and organic channels for a multi-city aesthetics clinic chain (11 centers across India + Dubai). I understand the GTM funnel from lead acquisition to booked revenue — and I now build the AI systems that automate it.
 
-Reach out on [LinkedIn](https://linkedin.com/in/digitalshivraj) or via GitHub.
+Earlier: built three algorithmic trading systems for XAUUSD (mathematical ensemble, Transformer forecaster, RL/PPO agent stack). Formally closed after forensic backtesting confirmed no edge survived realistic transaction costs. The kill decision matters as much as the build decision.
 
 ---
 
-*Pre-revenue. Pre-funding. Just shipping.*
+## Currently
+
+- 🔨 Building for the **Band of Agents Hackathon** (June 12–19, 2026) — multi-agent enterprise workflow system
+- 🎯 Open to **GTM Engineer / AI Automation Specialist** roles — India-based or remote globally
+- 📬 [chincholkar.shivraj1@gmail.com](mailto:chincholkar.shivraj1@gmail.com)
