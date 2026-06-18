@@ -8,48 +8,66 @@ I build multi-agent AI systems and growth automation — end to end, in producti
 
 ## What I Build
 
-### 🤖 [Headliner](https://github.com/digitalshivraj/headliner) — 9-Agent B2B Outreach Automation
-A production multi-agent pipeline for selling paid editorial placements at scale.
+### 🚀 [OutreachOS](https://github.com/digitalshivraj/OutreachOS) — Multi-Agent Compliance-Gated Outreach Engine
+*Built for the Band of Agents Hackathon (June 2026) · [Live Demo](#) · [Video Walkthrough](#)*
 
-- **9 coordinated agents:** Prospect Researcher (Apollo/LinkedIn enrichment) → Fit Scorer (7/10 gate) → Personalizer (trained voice corpus) → Reply Classifier → Follow-up Composer → Compliance Monitor → Scheduler → Sheets Sync → Telegram Control Hub
+An open-source AI outreach engine where agents review and reject each other's work before anything ships — not a linear pipeline, a deliberation loop.
+
+- **4 coordinated agents on Band:** Researcher (prospect/company context) → Copywriter (drafts personalized outreach) → Compliance Reviewer (approves, rejects with reasons, or escalates to a human) → Human Approval (final sign-off on flagged cases)
+- **The core mechanic:** Compliance Reviewer can send work *backward* to the Copywriter for revision — agents coordinating and disagreeing, not just executing in sequence
+- **Stack:** Band SDK · Python · Claude API (AI/ML API) · Featherless AI (open-source inference) · Next.js demo UI · Vercel
+- **Why it exists:** I've run real cold-outreach campaigns. Bad AI-written outreach destroys sender reputation faster than no outreach at all — this system makes that failure mode structurally hard to ship.
+
+### 🤖 [Headliner](https://github.com/digitalshivraj/headliner) — 9-Agent B2B Outreach Automation *(Private — commercial)*
+A production multi-agent pipeline running real cold-outreach campaigns for paid editorial placements, at $999–$1,200 per placement.
+
+- **9 coordinated agents:** Theme Mapper → Prospect Researcher (Apollo/LinkedIn enrichment) → Fit Scorer (7/10 gate) → Personalizer (trained voice corpus) → Reply Classifier → Follow-up Composer → Compliance Monitor → Scheduler → Sheets Sync / Telegram Control Hub
 - **Stack:** n8n · Supabase Postgres · Instantly.ai · Claude API · Google Sheets API · Telegram Bot API
-- **Design principle:** Human sign-off before every send. Bad AI outreach costs more pipeline than no outreach.
+- **Design principle:** Human sign-off before every send. OutreachOS (above) is the open-source distillation of this system's core architecture — built fresh, without exposing the commercial pipeline or client data.
 
-### 🎓 [Astra Global](https://github.com/digitalshivraj/Astra-Global) — AI-Assisted Early Childhood Coaching Platform · [Live Demo](https://astraglobal.vercel.app)
+### 🎓 [Astra Global](https://github.com/digitalshivraj/Astra-Global) — AI-Assisted Early Childhood Coaching Platform
+*[Live Demo](https://astraglobal.vercel.app)*
+
 Full-stack coaching dashboard built and deployed solo in 6 weeks.
 
 - **48 curriculum units** across two learning levels with progress loops and celebration mechanics
 - **Stack:** Next.js · Supabase (Postgres + RLS) · Vercel · TypeScript
 - Owned everything: schema design, 8 migrations, seeding pipeline, auth, RLS hardening, analytics, production deployment
 
+### 📊 [MIDAS](https://github.com/digitalshivraj/MIDAS) — Algorithmic Trading System (XAUUSD)
+Institutional-style ensemble trading system: Kalman Filter, Discrete Wavelet Transform, Hidden Markov Model regime detection, Hurst Exponent, and order-flow analysis feeding an XGBoost gatekeeper with Kelly Criterion position sizing.
+
+- **Stack:** Python · XGBoost · statsmodels · MetaTrader5 API
+- Part of a closed research arc (MIDAS → APEX → ARIA) — see Background below.
+
 ---
 
 ## Skills
 
 **AI & Agents**
-`Multi-Agent Systems` `LLM Orchestration` `Prompt Engineering` `n8n` `Claude API` `OpenAI API` `Agent Memory & State Design` `Human-in-the-Loop Guardrails`
+`Multi-Agent Systems` `Agent Orchestration` `LLM Integration (Claude API)` `Prompt Engineering` `Human-in-the-Loop Guardrails` `Agent Memory & State Design` `Band SDK` `n8n`
 
 **Backend & Data**
-`Postgres` `Supabase` `REST APIs` `Webhooks` `Google Sheets API` `Python` `SQL`
+`Python` `Postgres` `Supabase` `REST APIs` `Webhooks` `Google Sheets API` `SQL`
 
 **Frontend & Deployment**
 `Next.js` `React` `TypeScript` `JavaScript` `Vercel` `Git`
 
 **GTM & Growth**
-`Cold Outreach Systems` `Email Deliverability` `Google Ads` `Meta Ads` `GA4` `SEO/GEO/AEO` `Funnel Analytics` `HubSpot` `CRM`
+`Cold Outreach Systems` `Email Deliverability (SPF/DKIM/DMARC)` `Google Ads` `Meta Ads` `LinkedIn Ads` `GA4` `SEO/GEO/AEO` `Funnel Analytics` `HubSpot` `CRM`
 
 ---
 
 ## Background
 
-Previously spent 8 years driving revenue through paid and organic channels for a multi-city aesthetics clinic chain (11 centers across India + Dubai). I understand the GTM funnel from lead acquisition to booked revenue — and I now build the AI systems that automate it.
+8 years driving revenue through paid and organic channels for a multi-city aesthetics clinic chain (11 centers across India + Dubai) — Google/Meta/LinkedIn ads, SEO/GEO, email infrastructure, funnel analytics. I understand the GTM funnel from lead acquisition to booked revenue, and now build the AI systems that automate it.
 
-Earlier: built three algorithmic trading systems for XAUUSD (mathematical ensemble, Transformer forecaster, RL/PPO agent stack). Formally closed after forensic backtesting confirmed no edge survived realistic transaction costs. The kill decision matters as much as the build decision.
+Earlier, I built and formally closed three algorithmic trading research systems for XAUUSD: a mathematical ensemble (MIDAS), a Transformer forecaster (APEX), and a regime-adaptive reinforcement learning system (ARIA). ARIA was closed after forensic backtesting confirmed no directional edge survived realistic transaction costs across 5 walk-forward folds. I consider the kill decision as important as the build decision — shipping a system that doesn't work is worse than shipping nothing.
 
 ---
 
 ## Currently
 
-- 🔨 Building for the **Band of Agents Hackathon** (June 12–19, 2026) — multi-agent enterprise workflow system
+- 🚀 Shipped **OutreachOS** for the Band of Agents Hackathon (June 12–19, 2026)
 - 🎯 Open to **GTM Engineer / AI Automation Specialist** roles — India-based or remote globally
 - 📬 [chincholkar.shivraj1@gmail.com](mailto:chincholkar.shivraj1@gmail.com)
