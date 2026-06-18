@@ -2,14 +2,14 @@
 
 **AI Automation & GTM Engineer** · Pune, India · [LinkedIn](https://linkedin.com/in/digitalshivraj)
 
-I build multi-agent AI systems and growth automation — end to end, in production. 8+ years running B2B revenue funnels, now designing and shipping the AI systems that run them.
+I build multi-agent AI systems and growth automation — end to end, in production. 9+ years running B2B revenue funnels, now designing and shipping the AI systems that run them.
 
 ---
 
 ## What I Build
 
 ### 🚀 [OutreachOS](https://github.com/digitalshivraj/OutreachOS) — Multi-Agent Compliance-Gated Outreach Engine
-*Built for the Band of Agents Hackathon (June 2026) · [Live Demo](#) · [Video Walkthrough](#)*
+*Built for the Band of Agents Hackathon (June 2026) · [Live Demo](https://outreachos-e9mgyjq68ymhz3ubddqxtz.streamlit.app/)*
 
 An open-source AI outreach engine where agents review and reject each other's work before anything ships — not a linear pipeline, a deliberation loop.
 
@@ -60,7 +60,7 @@ Institutional-style ensemble trading system: Kalman Filter, Discrete Wavelet Tra
 
 ## Background
 
-8 years driving revenue through paid and organic channels for a multi-city aesthetics clinic chain (11 centers across India + Dubai) — Google/Meta/LinkedIn ads, SEO/GEO, email infrastructure, funnel analytics. I understand the GTM funnel from lead acquisition to booked revenue, and now build the AI systems that automate it.
+9+ years across digital marketing roles, including 4+ years driving revenue through paid and organic channels for a multi-city aesthetics clinic chain (11 centers across India + Dubai) — Google/Meta/LinkedIn ads, SEO/GEO, email infrastructure, funnel analytics. I understand the GTM funnel from lead acquisition to booked revenue, and now build the AI systems that automate it.
 
 Earlier, I built and formally closed three algorithmic trading research systems for XAUUSD: a mathematical ensemble (MIDAS), a Transformer forecaster (APEX), and a regime-adaptive reinforcement learning system (ARIA). ARIA was closed after forensic backtesting confirmed no directional edge survived realistic transaction costs across 5 walk-forward folds. I consider the kill decision as important as the build decision — shipping a system that doesn't work is worse than shipping nothing.
 
