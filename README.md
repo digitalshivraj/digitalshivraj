@@ -62,7 +62,13 @@ Institutional-style ensemble trading system: Kalman Filter, Discrete Wavelet Tra
 
 9+ years across digital marketing roles, including 4+ years driving revenue through paid and organic channels for a multi-city aesthetics clinic chain (11 centers across India + Dubai) — Google/Meta/LinkedIn ads, SEO/GEO, email infrastructure, funnel analytics. I understand the GTM funnel from lead acquisition to booked revenue, and now build the AI systems that automate it.
 
-Earlier, I built and formally closed three algorithmic trading research systems for XAUUSD: a mathematical ensemble (MIDAS), a Transformer forecaster (APEX), and a regime-adaptive reinforcement learning system (ARIA). ARIA was closed after forensic backtesting confirmed no directional edge survived realistic transaction costs across 5 walk-forward folds. I consider the kill decision as important as the build decision — shipping a system that doesn't work is worse than shipping nothing.
+Earlier, I built and formally closed a three-phase algorithmic trading research program on XAUUSD (gold spot), each phase testing a different hypothesis about whether short-term price direction is predictable:
+
+- **MIDAS** — a 5-model mathematical ensemble: Kalman Filter (trend extraction), Discrete Wavelet Transform (multi-resolution signal decomposition), Hidden Markov Model (regime detection), Hurst Exponent (trend-vs-mean-reversion classification), and an Order Flow Analyzer, fed into an XGBoost gatekeeper for trade filtering with Kelly Criterion position sizing.
+- **APEX** — a Transformer-based forecaster predicting short-horizon price movement directly from sequence data. Diagnosed and fixed a critical failure mode here: the model was trading on randomly-initialized weights due to a checkpoint load failure, and separately, MSE loss on a near-zero-mean target was incentivizing the model to always predict near-zero (the "safe" loss-minimizing answer, not a useful signal).
+- **ARIA** — a regime-adaptive reinforcement learning system using PPO agents conditioned on detected market regime.
+
+I ran forensic walk-forward backtesting against realistic transaction costs (spread, slippage, commission) across 5 folds. Result: directional AUC of 0.5022 — statistically indistinguishable from a coin flip — and negative net return per trade after friction in all 5 folds. I formally closed the program rather than keep iterating on reward functions or model architecture once the underlying premise (predictable short-term direction) failed to hold under honest evaluation. I treat the kill decision as seriously as the build decision.
 
 ---
 
