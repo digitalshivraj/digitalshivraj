@@ -34,6 +34,17 @@ Full-stack coaching dashboard built and deployed solo in 6 weeks.
 - **Stack:** Next.js · Supabase (Postgres + RLS) · Vercel · TypeScript
 - Owned everything: schema design, 8 migrations, seeding pipeline, auth, RLS hardening, analytics, production deployment
 
+### 💊 [CareSync](https://github.com/digitalshivraj/caresync-senior-app) — Senior Medication & Health Companion App
+*[Live Demo](https://caresync-f6f24.web.app)*
+
+A premium, senior-friendly medication and health companion app built solo, designed for accessibility-first use by elderly users and their caregivers.
+
+- **Dual-role context switcher** — a single account seamlessly toggles between senior and caregiver views, each with its own permissions and UI
+- **Voice vitals logging** — hands-free health data entry for users who struggle with small-screen typing
+- **Dynamic pill rendering** with low-stock warnings, built for real medication-adherence workflows, not a generic to-do list
+- **Accessibility-first design** — large touch targets, high-contrast modes, and voice-first interaction patterns throughout
+- **Stack:** JavaScript · Firebase (Hosting + backend)
+
 ### 📊 [MIDAS](https://github.com/digitalshivraj/MIDAS) — Algorithmic Trading System (XAUUSD)
 Institutional-style ensemble trading system: Kalman Filter, Discrete Wavelet Transform, Hidden Markov Model regime detection, Hurst Exponent, and order-flow analysis feeding an XGBoost gatekeeper with Kelly Criterion position sizing.
 
