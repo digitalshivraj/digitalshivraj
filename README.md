@@ -2,11 +2,35 @@
 
 **AI Automation & GTM Engineer** · Pune, India · [LinkedIn](https://linkedin.com/in/digitalshivraj)
 
-I build multi-agent AI systems and growth automation — end to end, in production. 9+ years running B2B revenue funnels, now designing and shipping the AI systems that run them.
+I build multi-agent AI systems and growth automation — end to end, in production. 10+ years running B2B revenue funnels, now designing and shipping the AI systems that run them.
 
 ---
 
 ## What I Build
+
+### 🛡️ Streakstone — Lead Qualification Firewall & Verified Appointment Engine *(Private — commercial)*
+*Live · formerly Kasauti*
+
+A multi-tenant platform for businesses that run lead ads: every incoming lead is qualified before it reaches the sales team, and appointments are verified before they are counted.
+
+- **Built around real cost per real lead**, replacing the ad platform's count of every submitted form
+- **AI voice agent** calls and qualifies leads; self-serve onboarding lets one operator run many client accounts
+- **Stack:** Next.js · Supabase (Postgres + RLS) · Vercel · AI voice agent · WhatsApp API
+
+### 🪪 Parichay — Government ID Card Platform *(Private — client work)*
+
+Data collection and card generation platform for a state school programme: 420+ schools across 20 districts, about 469,000 student records, around 70 field agents.
+
+- **AI quality-check agent** on Claude vision for student photos, with a human review queue
+- **Print pipeline** that turns each school into one print-ready PDF pack
+- **Stack:** Next.js · Supabase · Vercel · Claude vision · n8n
+
+### 🚚 Mahima One — Franchise Logistics Platform *(Private — client work)*
+
+Franchise booking and head-office platform for a packers and movers company: 32 screens covering booking, consignment lifecycle, exceptions, trips, payments, rate cards, public tracking and partner onboarding.
+
+- **Tenant isolation** between franchises with Row-Level Security; deployed with zero open ports
+- **Stack:** Next.js · Postgres (Docker) · Cloudflare Tunnel
 
 ### 🚀 [OutreachOS](https://github.com/digitalshivraj/OutreachOS) — Multi-Agent Compliance-Gated Outreach Engine
 *Built for the Band of Agents Hackathon (June 2026) · [Live Demo](https://outreachos-e9mgyjq68ymhz3ubddqxtz.streamlit.app/)*
@@ -71,7 +95,7 @@ Institutional-style ensemble trading system: Kalman Filter, Discrete Wavelet Tra
 
 ## Background
 
-9+ years across digital marketing roles, including 4+ years driving revenue through paid and organic channels for a multi-city aesthetics clinic chain (11 centers across India + Dubai) — Google/Meta/LinkedIn ads, SEO/GEO, email infrastructure, funnel analytics. I understand the GTM funnel from lead acquisition to booked revenue, and now build the AI systems that automate it.
+10+ years across digital marketing roles, including 4+ years driving revenue through paid and organic channels for a multi-city aesthetics clinic chain (11 centers across India + Dubai) — Google/Meta/LinkedIn ads, SEO/GEO, email infrastructure, funnel analytics. I understand the GTM funnel from lead acquisition to booked revenue, and now build the AI systems that automate it.
 
 Earlier, I built and formally closed a three-phase algorithmic trading research program on XAUUSD (gold spot), each phase testing a different hypothesis about whether short-term price direction is predictable:
 
@@ -85,6 +109,7 @@ I ran forensic walk-forward backtesting against realistic transaction costs (spr
 
 ## Currently
 
+- 🚀 Building **Streakstone**, a lead qualification platform for businesses that run lead ads
 - 🚀 Shipped **OutreachOS** for the Band of Agents Hackathon (June 12–19, 2026)
 - 🎯 Open to **GTM Engineer / AI Automation Specialist** roles — India-based or remote globally
 - 📬 [chincholkar.shivraj1@gmail.com](mailto:chincholkar.shivraj1@gmail.com)
