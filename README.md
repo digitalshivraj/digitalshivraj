@@ -49,7 +49,7 @@ A production multi-agent pipeline running real cold-outreach campaigns for paid 
 - **Stack:** n8n · Supabase Postgres · Instantly.ai · Claude API · Google Sheets API · Telegram Bot API
 - **Design principle:** Human sign-off before every send. OutreachOS (above) is the open-source distillation of this system's core architecture — built fresh, without exposing the commercial pipeline or client data.
 
-### 🎓 [Astra Global](https://github.com/digitalshivraj/Astra-Global) — AI-Assisted Early Childhood Coaching Platform
+### 🎓 Astra Global *(Private)* — AI-Assisted Early Childhood Coaching Platform
 *[Live Demo](https://astraglobal.vercel.app)*
 
 Full-stack coaching dashboard built and deployed solo in 6 weeks.
@@ -58,7 +58,7 @@ Full-stack coaching dashboard built and deployed solo in 6 weeks.
 - **Stack:** Next.js · Supabase (Postgres + RLS) · Vercel · TypeScript
 - Owned everything: schema design, 8 migrations, seeding pipeline, auth, RLS hardening, analytics, production deployment
 
-### 💊 [CareSync](https://github.com/digitalshivraj/caresync-senior-app) — Senior Medication & Health Companion App
+### 💊 CareSync *(Private)* — Senior Medication & Health Companion App
 *[Live Demo](https://caresync-f6f24.web.app)*
 
 A premium, senior-friendly medication and health companion app built solo, designed for accessibility-first use by elderly users and their caregivers.
@@ -74,6 +74,25 @@ Institutional-style ensemble trading system: Kalman Filter, Discrete Wavelet Tra
 
 - **Stack:** Python · XGBoost · statsmodels · MetaTrader5 API
 - Part of a closed research arc (MIDAS → APEX → ARIA) — see Background below.
+
+---
+
+## More Systems I've Built
+
+Most of my repositories are private because they are client work or commercial products. These are the ones not shown above. Happy to walk through any of them on a call.
+
+| Project | What it does | Stack | Status |
+|---|---|---|---|
+| **Citeloop** | Multi-tenant SEO, AEO and GEO platform: site audit engine with 34 checks, AI citation radar across Claude, OpenAI and Perplexity, and a client portal | Python · Supabase (RLS) · Next.js · CI eval gate | Built; first full scan covered 442 pages |
+| **SmartDine** | QR dine-in and takeaway ordering for restaurants: table menu, parcel tokens, kitchen order tickets, counter voice announcements, UPI billing, owner reports | Vercel · Supabase | Live; first restaurants onboarding |
+| **ZeroBaki** | B2B dues recovery agent for small firms | Supabase · Claude API | In build |
+| **Anudan Sarathi** | Subsidy application tracking for an agri-equipment dealer: five access roles, stage-by-stage farmer tracking, Marathi interface | Vercel · Supabase | Built for a client |
+| **PropDesk** | Prop firm management CRM with trader, admin and support portals | Vercel | Client demo live |
+| **Campaign management system** | War-room dashboard with booth-level tracking, plus a field worker mobile app with role-based access, in Marathi and English | Vercel | Client demo live |
+| **Devdoot** | Doctor booking and patient waiting-queue platform | Supabase | In build |
+| **JanSeva** | Citizen-service CRM for an elected representative's office | Supabase | Built |
+| **MT5 Relay** | Bridge that sends TradingView signals to MetaTrader 5 | Python | In build |
+| **PDF Editor** | Edits PDF text while keeping the original font, with bulk find and replace | FastAPI · PyMuPDF | Built |
 
 ---
 
